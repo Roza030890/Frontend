@@ -10,7 +10,7 @@ import { ContactUsComponent } from './contact-us/contact-us.component';
 import { AppRoutingModule } from './app-routing.module';
 import { HomeComponent } from './home/home.component';
 import { HeaderComponent } from './header/header.component';
-import { HttpClientModule} from '@angular/common/http';
+// import { HttpClientModule} from '@angular/common/http';
 
 
 @NgModule({
@@ -22,12 +22,12 @@ import { HttpClientModule} from '@angular/common/http';
     ContactUsComponent,
     HomeComponent,
     HeaderComponent,
-    HttpClientModule
+    // HttpClientModule
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    // HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
