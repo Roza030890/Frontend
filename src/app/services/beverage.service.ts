@@ -18,6 +18,6 @@ export class BeverageService {
 
 
   getBeverage() {
-    return this.httpClient.get<IBeverage[]>('http://localhost:5000');
+    return this.httpClient.get<IBeverage[]>('http://localhost:4000');
   }
 }
