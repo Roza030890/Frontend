@@ -21,4 +21,4 @@ const route: Routes = [
     exports: [RouterModule]
 })
 export class AppRoutingModule {}
-// export class routingComponents = [ FoodComponent, DrinksComponent, OffersComponent ] 
+// export class routingComponents = [ FoodComponent, BeverageComponent, OffersComponent ] 

@@ -8,7 +8,7 @@ import { ContactUsComponent } from './contact-us/contact-us.component';
 import { AppRoutingModule } from './app-routing.module';
 import { HomeComponent } from './home/home.component';
 import { HeaderComponent } from './header/header.component';
-// import { HttpClientModule} from '@angular/common/http';
+import { HttpClientModule} from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -21,10 +21,12 @@ import { HeaderComponent } from './header/header.component';
     HeaderComponent,
     // HttpClientModule
   ],
+
   imports: [
     BrowserModule,
+    HttpClientModule,
     AppRoutingModule,
-    // HttpClientModule
+   
   ],
   providers: [],
   bootstrap: [AppComponent]

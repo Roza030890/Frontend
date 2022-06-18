@@ -18,7 +18,7 @@ export class FoodService {
 
 
 
-  getFood() {
-    return this.httpClient.get<IFood[]>('http://localhost:5000');
+  getFoodsItems() {
+    return this.httpClient.get<IFood[]>('http://localhost:4000/foods');
   }
 }

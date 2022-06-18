@@ -1,3 +1,16 @@
+<div class="row justify-content-around">
+    
+    <div class="card" *ngFor="let FoodItem of food_items">
+    <img src="/assets/images/pizza.jpg" alt="...">
+    <div class="card-body">
+      <h3 class="card-title"> {{ FoodItem.food_name }}</h3>
+      <p class="card-text">{{ FoodItem.description }}</p>
+      <button type="button" class="btn btn-primary">${{ FoodItem.price }}</button>
+    </div>
+  </div>
+</div> 
+
+
 
 <div class="row justify-content-around">
     
@@ -56,4 +69,4 @@
       <button type="button" class="btn btn-primary">$15</button>
     </div>
   </div>
-</div>
+</div> 

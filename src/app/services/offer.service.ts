@@ -16,6 +16,6 @@ export class OfferService {
 
 
   getOffer() {
-    return this.httpClient.get<IOffer[]>('http://localhost:5000');
+    return this.httpClient.get<IOffer[]>('http://localhost:4000/offers');
   }
 }
